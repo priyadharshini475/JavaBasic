@@ -7,9 +7,9 @@ public class Condition_check {
 	System.out.println("Enter a");
 	int a=sc.nextInt();
 	if(a>0)
-		 System.out.println(" a is Positive number");
+		 System.out.println(" a is Positive number"+ a);
 	else
-		System.out.println("a is Negative number");
+		System.out.println("a is Negative number"+a);
 	System.out.println("Enter b");
 	int b=sc.nextInt();
 	int num=0;

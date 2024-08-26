@@ -5,7 +5,7 @@ public class AuditStudent extends Student {
 		  name=str;
 	  }
 	  public void gotoclass() {
-		  
+		 // 
 	  }
     public void gotoclass(String direction) {
     	System.out.println("Go to class after audit complete");

@@ -51,10 +51,12 @@ public class Condition_check {
 	case 1:
 		System.out.println("Jan 31 days");break;
 	case 2:
-		if((year%4==0 && year%100!=0) || (year%400==0))
+		if((year%4==0 && year%100!=0) || (year%400==0)) {
 		System.out.println("Feb 29 days");
-		else
+		break;}
+		else {
 		 System.out.println("Feb 28 days");	
+		 break;}
 	case 3:
 		System.out.println("march 31 days");break;
 	case 4:
@@ -75,6 +77,8 @@ public class Condition_check {
 		System.out.println("Nov 30 days");break;
 	case 12:
 		System.out.println("Dec 31 days");break;
+	default:
+		System.out.println("There is no month");
 	}
 
 }}

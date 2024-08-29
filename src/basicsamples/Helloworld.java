@@ -5,6 +5,7 @@ public class Helloworld {
       int j=12;
 	public static void main(String[] args) {
 		System.out.println("Hello World");
+		System.out.println("Hello");
 		Helloworld obj1=new Helloworld();
 		System.out.println(obj1.addition(10,20));
 		System.out.println(Helloworld.addition(30,30));
